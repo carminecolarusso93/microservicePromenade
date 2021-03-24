@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.gmail.carminecolarusso93</groupId>
-    <artifactId>microservicePromenade</artifactId>
+    <artifactId>microservice-promenade</artifactId>
     <version>1</version>
-    <name>microservicePromenade</name>
+    <name>microservice-promenade</name>
     <packaging>war</packaging>
 
     <properties>
