@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <title>My AngularJS App</title>
+    <title>Online Traffic Monitoring</title>
     <script src="./mapScript.js"></script>
 
     <link rel="stylesheet" href="app.css">
@@ -100,8 +100,7 @@
         </div>
         <div class="card">
             <div class="card-body">
-                <input class="form-control" id="serverLocationRest" placeholder="ServerLocation" value="localhost:8080">
-                <!--                <input class="form-control" id="serverLocationRest" placeholder="ServerLocation" value="wildfly-promenade.router.default.svc.cluster.local">-->
+                <input class="form-control" id="serverLocationRest" placeholder="ServerLocation" value="microservice-promenade-promenade.router.default.svc.cluster.local">
                 <span class="help-block">Please enter server Location [ip:port]</span>
             </div>
         </div>
@@ -117,8 +116,6 @@
     <div id="mapdiv"></div>
 </div>
 
-
-<!--<div id="footer">By Jack with Carmine's help</div>-->
 <script src="./controllerRest.js"></script>
 </body>
 </html>
