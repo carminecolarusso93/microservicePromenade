@@ -1,0 +1,189 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+
+
+.sidebar-footer{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 0.7em;
+  color: #000000;
+}
+
+.logo{
+  width:100%;
+  height:170px;
+}
+
+.mapStyle {
+  /*padding: 28px;*/
+  min-height: 100vh;
+  transition: all 0.3s;
+  /*width: 72.9%;*/
+  /*width: 70%;*/
+  width: 75%;
+  /*top: 1rem;*/
+  /*right: 1.5rem;*/
+  float: left;
+}
+
+.menuItem {
+  width: 100%;
+  border: 0.5px solid #358fff;
+  box-shadow: 5px 5px 5px #5cc5ff;
+  padding: 8px 12px;
+  /* background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);*/
+  background-image: linear-gradient(to bottom right, #aed5ff, #c6e3ff);
+}
+
+.sidemenu{
+  /*display: inline-block;*/
+  float: left;
+  width: 25%
+}
+
+
+
+/*TEST*/
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(2.0625rem + 2px);
+  /*padding: .375rem .75rem;*/
+  font-size: .875rem;
+  line-height: 1.5;
+  color: #5c6873;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #e4e7ea;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.card {
+  /*margin-bottom: 1.5rem;*/
+  flex: 0 0 50%;
+  /*max-width: 27%;*/
+  border-bottom: 2px solid #222222 ;
+  /*display: inline-block;*/
+}
+
+.card-header {
+  padding: .5rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #f0f3f5;
+  border-bottom: 1px solid #c8ced3;
+}
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: .75rem;
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #23282c;
+  text-align: left;
+  background-color: #e4e5e6;
+}
+
+.card-footer {
+  padding: .5rem 1.25rem;
+  background-color: #f0f3f5;
+  border-top: 1px solid #c8ced3;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.btn-sm, .btn-group-sm>.btn {
+  padding: .25rem .5rem;
+  font-size: .765625rem;
+  line-height: 1.5;
+  border-radius: .2rem;
+}
+.btn-success {
+  color: #fff;
+  background-color: #4dbd74;
+  border-color: #4dbd74;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*.fa-dot-circle-o:before {*/
+/*  content: "\f192";*/
+/*}*/
+
+body {
+  background-color: #43b8b6;
+  margin: unset;
+}
+
+p {
+  color: #000000;
+}
+
+#header {
+  width: 100vw;
+  height: 5vh;
+  text-align: center;
+  background-color: aquamarine;
+}
+#content {
+  width: 100vw;
+  height: 90vh;
+}
+#sideMenudiv{
+  width: 25vw;
+  height: 90vh;
+  float: left;
+  background-color: deepskyblue;
+}
+#mapdiv {
+  width: 75vw;
+  /*height: 90vh;*/
+  height: 100vh;
+  float: left;
+  background-color: cadetblue;
+  transition: all 0.3s;
+}
+#footer{
+  height: 5vh;
+  width: 100vw;
+  background-color: aqua;
+  clear: both;
+}
